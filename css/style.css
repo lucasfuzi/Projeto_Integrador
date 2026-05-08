@@ -154,36 +154,35 @@
             text-decoration: underline;
         }
         /* Novos estilos para a seleção de tipo de usuário */
-.user-type-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 20px;
-}
+        .user-type-container {
+           display: flex;
+           justify-content: space-between;
+           gap: 10px;
+           margin-bottom: 20px;
+         }
 
-.btn-type {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #333;
-    border-radius: 20px;
-    background-color: #e0e0e0;
-    cursor: pointer;
-    font-size: 14px;
-    transition: 0.3s;
-}
+       .btn-type {
+           flex: 1;
+           padding: 8px;
+           border: 1px solid #333;
+           border-radius: 20px;
+           background-color: #e0e0e0;
+           cursor: pointer;
+           font-size: 14px;
+           transition: 0.3s;
+         }
 
-.btn-type:hover {
-    background-color: #ccc;
-}
+        .btn-type:hover {
+           background-color: #ccc;
+         }
 
 /* Pequeno ajuste para o link "Já possuo login" */
-.login-link-inline {
-    display: block;
-    text-align: right;
-    font-size: 11px;
-    color: #777;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
+        .login-link-inline {
+           display: block;
+           text-align: right;
+           font-size: 11px;
+           color: #777;
+           text-decoration: none;
+           margin-bottom: 10px;
+         }
     </style>
